@@ -20,8 +20,7 @@ public class Player {
     private Integer enemy_sr_avg;
     private Integer team_stack;
     private Integer enemy_stack;
-    private String role_1;
-    private String role_2;
+    private String role;
     private String result;
     private Integer streak;
     private Boolean leaver;
@@ -162,20 +161,12 @@ public class Player {
         this.enemy_stack = enemy_stack;
     }
 
-    public String getRole_1() {
-        return role_1;
+    public String getRole() {
+        return role;
     }
 
-    public void setRole_1(String role_1) {
-        this.role_1 = role_1;
-    }
-
-    public String getRole_2() {
-        return role_2;
-    }
-
-    public void setRole_2(String role_2) {
-        this.role_2 = role_2;
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public String getResult() {
