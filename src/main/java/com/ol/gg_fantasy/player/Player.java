@@ -48,7 +48,7 @@ public class Player {
     public Player() {
     }
 
-    public Player(String name, Integer game_number, Integer start_sr, Integer end_sr, Integer sr_change, Integer team_sr_avg, Integer enemy_sr_avg, Integer team_stack, Integer enemy_stack, String role_1, String role_2, String result, Integer streak, Boolean leaver, String map, Double match_time, Integer eliminations, Double eliminations_career, String eliminations_medal, Integer objective_kills, Double objective_kills_career, String objective_kills_medal, Double objective_time, Double objective_time_career, String objective_time_medal, Integer damage, Double damage_career, String damage_medal, Integer heal, Double heal_career, String heal_medal, Integer death, Double death_career, String team) {
+    public Player(String name, Integer game_number, Integer start_sr, Integer end_sr, Integer sr_change, Integer team_sr_avg, Integer enemy_sr_avg, Integer team_stack, Integer enemy_stack, String role, String result, Integer streak, Boolean leaver, String map, Double match_time, Integer eliminations, Double eliminations_career, String eliminations_medal, Integer objective_kills, Double objective_kills_career, String objective_kills_medal, Double objective_time, Double objective_time_career, String objective_time_medal, Integer damage, Double damage_career, String damage_medal, Integer heal, Double heal_career, String heal_medal, Integer death, Double death_career, String team) {
         this.name = name;
         this.game_number = game_number;
         this.start_sr = start_sr;
@@ -58,8 +58,7 @@ public class Player {
         this.enemy_sr_avg = enemy_sr_avg;
         this.team_stack = team_stack;
         this.enemy_stack = enemy_stack;
-        this.role_1 = role_1;
-        this.role_2 = role_2;
+        this.role = role;
         this.result = result;
         this.streak = streak;
         this.leaver = leaver;

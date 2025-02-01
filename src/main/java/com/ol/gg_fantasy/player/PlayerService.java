@@ -63,7 +63,7 @@ public class PlayerService {
         }
         return null;
     }
-    //
+    //Maintains data integrity during delete operation
     @Transactional
     public void deletePlayer(String playerName) {
         playerRepository.deleteByName(playerName);
