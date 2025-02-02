@@ -33,7 +33,7 @@ public class PlayerService {
                 .collect(Collectors.toList());
     }
 
-    public List<Player> getPlayerByRole(String searchText) {
+    public List<Player> getPlayersByRole(String searchText) {
         return playerRepository.findAll().stream()
                 .filter(player -> player.getName().toLowerCase().contains(searchText.toLowerCase()))
                 .collect(Collectors.toList());
